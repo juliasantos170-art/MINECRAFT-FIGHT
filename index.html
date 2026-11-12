@@ -17,6 +17,108 @@ button{font:inherit;cursor:pointer;border:0;color:inherit}.app{max-width:1240px;
 .detailbar{margin:0 16px 16px;padding:12px 14px;background:#0b1418;border:1px solid #26383d;border-radius:10px;display:flex;align-items:center;gap:12px}.detailicon{width:34px;height:34px;border-radius:9px;background:#243b2b;color:var(--green);display:grid;place-items:center;font-size:18px}.detailbar strong{font:700 12px 'Oxanium';letter-spacing:.5px}.detailbar p{font-size:11px;color:#9eb2ae;margin:4px 0 0;line-height:1.4}.sidepanel{position:sticky;top:16px}.sidebody{padding:18px}.slot{padding:13px;border:1px solid #2c4145;background:#0c1519;border-radius:11px;margin-bottom:12px}.slothead{display:flex;justify-content:space-between;align-items:center;font:700 10px 'Oxanium';letter-spacing:1.2px;color:#9eb3af;margin-bottom:10px}.slothead b{color:var(--green)}.slotcontent{display:flex;align-items:center;gap:11px;min-height:62px}.slotimg{width:54px;height:64px;object-fit:contain;image-rendering:pixelated;filter:drop-shadow(0 5px 5px #0007)}.slotname{font:700 14px 'Oxanium'}.slotdesc{font-size:10px;color:#8da5a0;margin-top:4px;line-height:1.4}.empty{color:#6e8581;font-size:11px;border:1px dashed #33474a;padding:14px;text-align:center;border-radius:8px;width:100%}.primary{width:100%;padding:14px;border-radius:9px;background:var(--green);color:#122017;font:800 12px 'Oxanium';letter-spacing:1.3px;box-shadow:0 7px 24px #a3f56a1c;transition:.2s}.primary:hover{transform:translateY(-2px);box-shadow:0 10px 28px #a3f56a33}.primary:disabled{opacity:.35;cursor:not-allowed;transform:none}.hint{color:#7f9691;font-size:10px;text-align:center;line-height:1.5;margin:12px 0 0}.combat{display:none}.arena{position:relative;min-height:300px;background:radial-gradient(ellipse at 50% 100%,#345d3b55,transparent 48%),linear-gradient(180deg,#0d171d,#111f23);padding:24px 22px 18px;overflow:hidden}.arena:before{content:"";position:absolute;inset:auto 0 0;height:78px;background:repeating-linear-gradient(90deg,#284535 0 44px,#1e382d 44px 88px);opacity:.35;clip-path:polygon(0 30%,10% 18%,20% 35%,35% 8%,48% 32%,62% 15%,78% 34%,90% 10%,100% 25%,100% 100%,0 100%)}.arena:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 70%,#9cf77d0c);pointer-events:none}.battlehud{position:relative;z-index:1;display:grid;grid-template-columns:1fr auto 1fr;gap:14px;align-items:start}.combatant{min-width:0}.combatant.right{text-align:right}.nameplate{font:700 13px 'Oxanium';letter-spacing:.8px}.subplate{font-size:10px;color:#8ca29f;margin-top:3px}.healthrow{display:flex;justify-content:space-between;font-size:10px;color:#c4d4ce;margin:13px 0 5px}.healthbar{height:7px;border-radius:99px;background:#29393b;overflow:hidden}.healthfill{height:100%;width:100%;background:linear-gradient(90deg,#70df69,#b5ff8c);border-radius:99px;transition:width .5s}.right .healthfill{margin-left:auto;background:linear-gradient(90deg,#e879f9,#b18cff)}.resource{font-size:9px;color:#8da49e;margin-top:7px}.versus{font:800 20px 'Oxanium';color:#6e8881;padding-top:15px;text-shadow:0 0 20px #a3f56a33}.duelstage{position:relative;z-index:1;height:180px;display:flex;justify-content:space-around;align-items:end;margin-top:-2px}.duelchar{height:180px;max-width:37%;object-fit:contain;image-rendering:pixelated;filter:drop-shadow(0 14px 12px #0009);animation:float 3.2s ease-in-out infinite}.duelchar.right{animation-delay:-1.5s;transform:scaleX(-1)}@keyframes float{0%,100%{translate:0 0}50%{translate:0 -7px}}.duelchar.hit{animation:hit .35s ease}.duelchar.attack{animation:attack .45s ease}@keyframes hit{0%,100%{filter:brightness(1) drop-shadow(0 14px 12px #0009)}35%{filter:brightness(2) drop-shadow(0 0 22px #ff6565);translate:8px 0}}@keyframes attack{40%{translate:35px -8px;filter:drop-shadow(0 0 18px var(--green))}100%{translate:0 0}}.battlelog{position:relative;z-index:1;margin-top:10px;padding:11px 13px;border-radius:8px;background:#091116bd;border:1px solid #263a3b;font-size:11px;color:#b7c9c2;min-height:38px;line-height:1.45}.actions{padding:17px 18px 19px}.actiontitle{font:700 11px 'Oxanium';letter-spacing:1.5px;color:#9bb2ac;margin-bottom:11px;display:flex;justify-content:space-between}.actiongrid{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}.action{border:1px solid #31464a;border-radius:10px;background:linear-gradient(145deg,#1b2b30,#10191e);padding:12px;text-align:left;transition:.2s;min-height:91px}.action:hover:not(:disabled){border-color:var(--green);transform:translateY(-2px);background:#20362b}.action:disabled{opacity:.35;cursor:not-allowed}.action .aicon{font-size:19px;margin-bottom:8px}.action strong{display:block;font:700 12px 'Oxanium';margin-bottom:4px}.action small{display:block;font-size:10px;color:#8da5a0;line-height:1.4}.action .cost{display:inline-block;margin-top:8px;font-size:9px;color:var(--gold);letter-spacing:.5px}.battlefooter{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:13px}.secondary{padding:11px 13px;border:1px solid #35494b;border-radius:8px;background:#101a1e;color:#a9beb7;font-size:11px;font-weight:700}.secondary:hover{border-color:#91b09f;color:white}.turnlabel{font:700 10px 'Oxanium';color:var(--green);letter-spacing:1.3px}.toast{position:fixed;left:50%;top:22px;transform:translate(-50%,-20px);opacity:0;pointer-events:none;background:#e9f9e5;color:#102014;border-radius:8px;padding:12px 18px;font-weight:700;font-size:12px;box-shadow:0 15px 50px #0008;z-index:20;transition:.25s}.toast.show{opacity:1;transform:translate(-50%,0)}.overlay{display:none;position:absolute;inset:0;background:#080e12e8;backdrop-filter:blur(7px);z-index:5;align-items:center;justify-content:center;padding:22px}.overlay.show{display:flex}.resultcard{text-align:center;max-width:380px;width:100%;padding:26px;border:1px solid #3c5b46;border-radius:15px;background:linear-gradient(145deg,#1c3027,#101a1d);box-shadow:0 20px 70px #0008}.resulticon{font-size:36px}.resultcard h3{font:800 26px 'Oxanium';margin:12px 0 8px}.resultcard p{color:#9bb3a8;font-size:12px;line-height:1.5;margin-bottom:20px}.footer{text-align:center;color:#536b68;font-size:10px;letter-spacing:1.3px;margin-top:23px}.hide{display:none!important}
 @media(max-width:900px){.layout{grid-template-columns:1fr}.sidepanel{position:static}.sidebody{display:grid;grid-template-columns:1fr 1fr;gap:10px}.slot{margin:0}.primary,.hint{grid-column:1/-1}.roster{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:600px){.app{padding:18px 12px 32px}.topbar{margin-bottom:22px}.status{display:none}.hero{display:block}.season{display:inline-block;margin-top:15px}.modebar{width:100%}.mode{flex:1;padding:11px 10px;font-size:10px}.roster{grid-template-columns:repeat(2,minmax(0,1fr));padding:10px}.spritewrap{height:120px}.sprite{height:116px}.fightername{font-size:13px}.sidebody{display:block}.slot{margin-bottom:10px}.arena{padding:18px 13px 14px}.duelstage{height:145px}.duelchar{height:145px}.actiongrid{grid-template-columns:1fr}.action{min-height:0;display:grid;grid-template-columns:28px 1fr;column-gap:8px;align-items:center}.action .aicon{grid-row:span 3;margin:0}.action strong{margin:0}.action small{margin-top:3px}.action .cost{margin-top:4px}.battlehud{gap:8px}.nameplate{font-size:11px}.versus{font-size:14px}.panelhead{padding:15px}.battlefooter{flex-wrap:wrap}.footer{line-height:1.6}}
+
+/* ===== OVERWORLD 2.0: acabamento visual ===== */
+:root{
+ --bg:#070d12;--panel:#101b21;--panel2:#18272c;--line:#30464a;
+ --green:#b4ff78;--cyan:#70f2df;--gold:#ffd47d;
+}
+html{scroll-behavior:smooth}
+body{
+ background:
+  radial-gradient(ellipse at 12% 8%,#315d4633 0,transparent 34%),
+  radial-gradient(ellipse at 88% 18%,#345c7830 0,transparent 32%),
+  linear-gradient(180deg,#091218 0%,#070d12 65%,#0c1718 100%);
+}
+body:after{
+ content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.16;
+ background-image:radial-gradient(#d8ffdb 1px,transparent 1px);
+ background-size:74px 74px;
+ mask-image:linear-gradient(to bottom,black,transparent 78%);
+}
+.app{z-index:1}
+.logo{box-shadow:0 0 0 5px #a3f56a12,0 0 34px #a3f56a55}
+.brand h1{text-shadow:0 0 24px #a3f56a2c}
+.hero{padding:8px 0 2px}
+.hero h2{ text-shadow:0 5px 30px #a3f56a20}
+.modebar{box-shadow:0 12px 34px #0003}
+.mode{position:relative}
+.mode.active{box-shadow:0 0 0 1px #d8ff9b88 inset,0 7px 24px #a3f56a28}
+.mainpanel,.sidepanel{box-shadow:0 24px 70px #0005,0 1px 0 #ffffff08 inset;backdrop-filter:blur(12px)}
+.panelhead{background:linear-gradient(90deg,#ffffff06,transparent)}
+.fighter{
+ background:linear-gradient(150deg,#203238 0%,#111c21 70%);
+ box-shadow:0 7px 18px #0002,inset 0 1px #ffffff08;
+}
+.fighter:before{opacity:.12;transition:opacity .2s}
+.fighter:hover:before,.fighter.selected:before{opacity:.23}
+.fighter.selected{box-shadow:0 0 0 1px #b4ff7866,0 12px 28px #a3f56a18,inset 0 1px #ffffff12}
+.sprite{filter:drop-shadow(0 12px 12px #0009) drop-shadow(0 0 12px color-mix(in srgb,var(--glow) 24%,transparent))}
+.detailbar{box-shadow:inset 0 1px #ffffff08}
+.slot{box-shadow:inset 0 1px #ffffff08}
+.primary{
+ background:linear-gradient(135deg,#caff91,#9de95e);
+ box-shadow:0 7px 24px #a3f56a22,inset 0 1px #ffffff9c;
+}
+.primary:hover:not(:disabled){filter:brightness(1.08);box-shadow:0 12px 34px #a3f56a35}
+.arena{
+ min-height:340px;
+ background:
+  radial-gradient(ellipse at 50% 100%,#67bd6a35 0,transparent 52%),
+  radial-gradient(ellipse at 50% 0%,#47758a26 0,transparent 58%),
+  linear-gradient(180deg,#101e28 0%,#17282a 68%,#101c1b 100%);
+}
+.arena:before{
+ height:92px;opacity:.62;
+ background:
+  linear-gradient(180deg,transparent 0 22%,#294b37 22% 100%),
+  repeating-linear-gradient(90deg,#31583e 0 42px,#244631 42px 84px);
+ clip-path:polygon(0 25%,8% 12%,18% 31%,29% 5%,42% 28%,55% 12%,67% 32%,79% 9%,91% 26%,100% 13%,100% 100%,0 100%);
+}
+.arena:after{
+ background:
+  linear-gradient(transparent 64%,#9cf77d0c),
+  repeating-linear-gradient(90deg,transparent 0 47px,#c4f7d008 48px 49px),
+  repeating-linear-gradient(0deg,transparent 0 47px,#c4f7d006 48px 49px);
+}
+.battlehud{padding:12px 13px;border:1px solid #ffffff0c;border-radius:12px;background:#07111688;backdrop-filter:blur(7px)}
+.nameplate{font-size:14px;text-shadow:0 2px 12px #0008}
+.healthbar{height:10px;border:1px solid #ffffff12;box-shadow:inset 0 2px 4px #0008}
+.healthfill{box-shadow:0 0 13px #8dff7c55}
+.right .healthfill{background:linear-gradient(90deg,#c18aff,#ff8de2);box-shadow:0 0 13px #e879f955}
+.duelstage{height:194px;filter:drop-shadow(0 14px 16px #0004)}
+.duelchar{height:190px;filter:drop-shadow(0 16px 12px #000a) drop-shadow(0 0 16px #b4ff7820)}
+.duelchar.right{filter:drop-shadow(0 16px 12px #000a) drop-shadow(0 0 16px #e879f933)}
+.battlelog{background:linear-gradient(100deg,#071116e8,#101d20e8);border-color:#45615a;box-shadow:inset 0 1px #ffffff0a,0 8px 22px #0002}
+.actions{background:linear-gradient(180deg,#ffffff03,transparent)}
+.action{position:relative;overflow:hidden;box-shadow:inset 0 1px #ffffff0b,0 7px 16px #0002}
+.action:before{content:"";position:absolute;inset:0;opacity:0;background:linear-gradient(110deg,transparent,#b4ff7815,transparent);transform:translateX(-100%);transition:.35s}
+.action:hover:not(:disabled):before{opacity:1;transform:translateX(100%)}
+.action:focus-visible,.fighter:focus-visible,.mode:focus-visible,.primary:focus-visible,.secondary:focus-visible{outline:2px solid var(--cyan);outline-offset:3px}
+.secondary{transition:.2s}
+.resultcard{box-shadow:0 25px 90px #000b,0 0 36px #a3f56a13,inset 0 1px #ffffff12}
+.toast{backdrop-filter:blur(10px)}
+/* Indicador de energia */
+.energy-meter{display:flex;align-items:center;gap:7px;margin:0 0 12px;padding:9px 11px;border:1px solid #2d4243;border-radius:9px;background:#0a1418}
+.energy-label{font:700 10px 'Oxanium';letter-spacing:1px;color:#9bb2ac;margin-right:auto}
+.energy-pip{width:19px;height:8px;border-radius:99px;background:#26383a;border:1px solid #415454;transition:.25s}
+.energy-pip.full{background:linear-gradient(90deg,#4bd9c4,#a2ffe2);border-color:#a0ffdf;box-shadow:0 0 12px #70f2df66}
+.damage-float{position:absolute;z-index:4;pointer-events:none;font:800 23px 'Oxanium';color:#fff;text-shadow:0 2px 0 #a52b35,0 0 16px #ff596b;animation:damageRise .9s ease-out forwards}
+.damage-float.good{color:#c8ff91;text-shadow:0 2px 0 #315a28,0 0 16px #a3f56a}
+@keyframes damageRise{0%{opacity:0;transform:translateY(12px) scale(.7)}15%{opacity:1;transform:translateY(0) scale(1.15)}100%{opacity:0;transform:translateY(-54px) scale(.92)}}
+.arena.impact{animation:arenaImpact .24s ease}
+@keyframes arenaImpact{0%,100%{filter:none}35%{filter:brightness(1.2) saturate(1.3)}}
+@media(max-width:600px){
+ .arena{min-height:310px}
+ .battlehud{padding:9px 8px}
+ .duelstage{height:160px}
+ .duelchar{height:158px}
+ .energy-pip{width:16px}
+}
+@media(prefers-reduced-motion:reduce){
+ *,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
+
 </style>
 </head>
 <body>
@@ -48,7 +150,7 @@ button{font:inherit;cursor:pointer;border:0;color:inherit}.app{max-width:1240px;
   <div class="battlelog" id="battleLog">A arena está pronta. Que comece o combate!</div>
   <div class="overlay" id="resultOverlay"><div class="resultcard"><div class="resulticon" id="resultIcon">🏆</div><h3 id="resultTitle">VITÓRIA!</h3><p id="resultText">Você venceu o duelo.</p><button class="primary" id="againBtn">JOGAR NOVAMENTE ↗</button><button class="secondary" id="backBtn" style="width:100%;margin-top:8px">VOLTAR À SELEÇÃO</button></div></div>
  </div>
- <div class="actions"><div class="actiontitle"><span>SUAS AÇÕES</span><span id="turnText">SEU TURNO</span></div><div class="actiongrid" id="actions">
+ <div class="actions"><div class="actiontitle"><span>SUAS AÇÕES</span><span id="turnText">SEU TURNO</span></div><div class="energy-meter" id="energyMeter" aria-label="Energia disponível"><span class="energy-label">ENERGIA</span><span class="energy-pip" data-energy="1"></span><span class="energy-pip" data-energy="2"></span><span class="energy-pip" data-energy="3"></span></div><div class="actiongrid" id="actions">
   <button class="action" data-action="basic"><div class="aicon">⚔️</div><strong>Ataque básico</strong><small>Dano consistente, sem custo.</small><span class="cost">SEM CUSTO</span></button>
   <button class="action" data-action="alt"><div class="aicon">✦</div><strong>Ataque alternativo</strong><small>Efeito tático exclusivo.</small><span class="cost">ENERGIA 1</span></button>
   <button class="action" data-action="special"><div class="aicon">☄</div><strong>Ataque especial</strong><small>Golpe poderoso com recarga.</small><span class="cost">ENERGIA 2</span></button>
@@ -73,7 +175,7 @@ function cloneF(key){return {...fighters[key],key,hpNow:fighters[key].hp,energy:
 $('startBtn').onclick=()=>startGame();
 function startGame(){if(!selected||(mode==='pvp'&&!selected2))return;player=cloneF(selected);let enemyKey=mode==='pvp'?selected2:chooseEnemy(selected);enemy=cloneF(enemyKey);turn=1;busy=false;gameOver=false;energy=2;cooldown=0;enemyEnergy=2;enemyCooldown=0;$('selectPanel').classList.add('hide');$('setupPanel').classList.add('hide');$('combatPanel').style.display='block';$('battleModeLabel').textContent=mode==='pve'?'TREINO PvE':'DUELO PvP';$('resultOverlay').classList.remove('show');$('battleLog').textContent=mode==='pve'?'A criatura surge na arena. Estude seus padrões e escolha seu primeiro movimento.':'Jogador 1 começa. O combate é por turnos alternados.';if(player.ini<enemy.ini&&mode==='pve'){setTimeout(enemyTurn,650);}renderBattle();$('initiativeLabel').textContent='INICIATIVA: '+(player.ini>=enemy.ini?player.name:enemy.name)+' COMEÇA';}
 function chooseEnemy(key){let candidates=names.filter(n=>n!==key&&fighters[n].team==='mob');return candidates[Math.floor(Math.random()*candidates.length)]||'zombie'}
-function renderBattle(){const p=player,e=enemy;$('pName').textContent=p.name.toUpperCase();$('pRole').textContent=p.role;$('pHpText').textContent=Math.max(0,p.hpNow)+' / '+p.hp;$('pHp').style.width=Math.max(0,p.hpNow/p.hp*100)+'%';$('pStats').textContent=`ATQ ${p.atk}  ·  DEF ${p.def}  ·  INI ${p.ini}  ·  CRIT ${Math.round(p.crit*100)}%`;$('eName').textContent=e.name.toUpperCase();$('eRole').textContent=e.role;$('eHpText').textContent=Math.max(0,e.hpNow)+' / '+e.hp;$('eHp').style.width=Math.max(0,e.hpNow/e.hp*100)+'%';$('eStats').textContent=`ATQ ${e.atk}  ·  DEF ${e.def}  ·  INI ${e.ini}  ·  CRIT ${Math.round(e.crit*100)}%`;$('pSprite').src=p.img;$('eSprite').src=e.img;$('turnText').textContent=mode==='pvp'?(turn%2?'TURNO DO JOGADOR 1':'TURNO DO JOGADOR 2'):'SEU TURNO';document.querySelectorAll('.action').forEach(b=>{let a=b.dataset.action;b.disabled=busy||gameOver||(a==='alt'&&energy<1)||(a==='special'&&(energy<2||cooldown>0));let costs={basic:'SEM CUSTO',alt:'ENERGIA 1',special:cooldown>0?'RECARGA '+cooldown+' TURNO(S)':'ENERGIA 2'};b.querySelector('.cost').textContent=costs[a]});}
+function renderBattle(){const p=player,e=enemy;document.querySelectorAll('.energy-pip').forEach((pip,i)=>pip.classList.toggle('full',i<energy));$('pName').textContent=p.name.toUpperCase();$('pRole').textContent=p.role;$('pHpText').textContent=Math.max(0,p.hpNow)+' / '+p.hp;$('pHp').style.width=Math.max(0,p.hpNow/p.hp*100)+'%';$('pStats').textContent=`ATQ ${p.atk}  ·  DEF ${p.def}  ·  INI ${p.ini}  ·  CRIT ${Math.round(p.crit*100)}%`;$('eName').textContent=e.name.toUpperCase();$('eRole').textContent=e.role;$('eHpText').textContent=Math.max(0,e.hpNow)+' / '+e.hp;$('eHp').style.width=Math.max(0,e.hpNow/e.hp*100)+'%';$('eStats').textContent=`ATQ ${e.atk}  ·  DEF ${e.def}  ·  INI ${e.ini}  ·  CRIT ${Math.round(e.crit*100)}%`;$('pSprite').src=p.img;$('eSprite').src=e.img;$('turnText').textContent=mode==='pvp'?(turn%2?'TURNO DO JOGADOR 1':'TURNO DO JOGADOR 2'):'SEU TURNO';document.querySelectorAll('.action').forEach(b=>{let a=b.dataset.action;b.disabled=busy||gameOver||(a==='alt'&&energy<1)||(a==='special'&&(energy<2||cooldown>0));let costs={basic:'SEM CUSTO',alt:'ENERGIA 1',special:cooldown>0?'RECARGA '+cooldown+' TURNO(S)':'ENERGIA 2'};b.querySelector('.cost').textContent=costs[a]});}
 function damage(att,def,power=1,ignore=0){let crit=Math.random()<att.crit;let raw=att.atk*power*(crit?1.65:1);let armor=Math.max(0,def.def-ignore-(def.weak?2:0));let amount=Math.max(3,Math.round(raw-armor*.65));return {amount,crit};}
 function attack(kind){if(busy||gameOver)return;let power=1,ignore=0,msg='',self=player,target=enemy;let cost=0;if(kind==='alt'&&energy<1||kind==='special'&&(energy<2||cooldown>0))return;busy=true;if(kind==='basic'){power=1;msg=self.moves.basic;}if(kind==='alt'){energy--;power=self.moves.altPower;ignore=self.altIgnore||0;msg=self.moves.alt;}if(kind==='special'){energy-=2;cooldown=3;power=self.moves.specialPower;ignore=self.specialIgnore||0;msg=self.moves.special;}let result=damage(self,target,power,ignore);target.hpNow-=result.amount;if(target.hpNow<0)target.hpNow=0;$('pSprite').classList.add('attack');$('eSprite').classList.add('hit');setTimeout(()=>{$('pSprite').classList.remove('attack');$('eSprite').classList.remove('hit')},450);if(kind==='alt'&&self.altEffect==='heal'){let heal=Math.round(self.hp*.12);self.hpNow=Math.min(self.hp,self.hpNow+heal);msg+=` Recuperou ${heal} de vida.`}if(kind==='alt'&&self.altEffect==='weaken'){target.weak=2;msg+=' O alvo ficou enfraquecido.'}if(kind==='alt'&&self.altEffect==='stun'&&Math.random()<.45){target.stun=1;msg+=' O alvo perdeu o próximo turno!'}if(kind==='special'&&self.specialEffect==='pierce'){msg+=' A armadura não segurou o impacto.'}if(kind==='special'&&self.specialEffect==='heal'){let heal=Math.round(self.hp*.18);self.hpNow=Math.min(self.hp,self.hpNow+heal);msg+=` Regenerou ${heal} de vida.`}if(kind==='special'&&self.specialEffect==='stun'){target.stun=1;msg+=' O alvo foi atordoado!'}if(kind==='special'&&self.specialEffect==='shield'){self.shield=2;msg+=' Um escudo absorverá parte do próximo golpe.'}$('battleLog').textContent=`${self.name}: ${msg} ${result.crit?'CRÍTICO! ':''}${result.amount} de dano.`;if(result.crit)toast('ACERTO CRÍTICO!');if(cooldown>0&&kind!=='special')cooldown--;if(target.weak>0)target.weak--;energy=Math.min(3,energy+1);renderBattle();setTimeout(()=>{if(checkEnd())return;if(mode==='pve'){setTimeout(enemyTurn,650)}else{turn++;busy=false;renderBattle();$('battleLog').textContent='Ataque resolvido. Passe o controle para o próximo jogador.'}},600)}
 function enemyTurn(){if(gameOver)return;busy=true;renderBattle();setTimeout(()=>{if(enemy.stun>0){enemy.stun--;busy=false;$('battleLog').textContent=enemy.name+' está atordoado e perdeu o turno!';energy=Math.min(3,energy+1);renderBattle();return setTimeout(()=>{busy=false;renderBattle()},350)}let kind='basic';if(enemy.energy>=2&&enemy.cooldown===0&&Math.random()<.28)kind='special';else if(enemy.energy>=1&&Math.random()<.42)kind='alt';let power=kind==='special'?enemy.moves.specialPower:kind==='alt'?enemy.moves.altPower:1;let ignore=kind==='alt'?(enemy.altIgnore||0):kind==='special'?(enemy.specialIgnore||0):0;let result=damage(enemy,player,power,ignore);if(player.shield>0){result.amount=Math.max(1,Math.round(result.amount*.45));player.shield=0}player.hpNow=Math.max(0,player.hpNow-result.amount);if(kind==='special'){enemy.energy-=2;enemy.cooldown=3}else if(kind==='alt')enemy.energy--;else if(enemy.cooldown>0)enemy.cooldown--;enemy.energy=Math.min(3,enemy.energy+1);$('eSprite').classList.add('attack');$('pSprite').classList.add('hit');setTimeout(()=>{$('eSprite').classList.remove('attack');$('pSprite').classList.remove('hit')},450);$('battleLog').textContent=`${enemy.name}: ${enemy.moves[kind]} ${result.crit?'CRÍTICO! ':''}${result.amount} de dano.`;renderBattle();if(checkEnd())return;setTimeout(()=>{busy=false;energy=Math.min(3,energy+1);if(cooldown>0)cooldown--;turn++;renderBattle()},450)},450)}
@@ -82,6 +184,33 @@ document.querySelectorAll('.action').forEach(b=>b.onclick=()=>attack(b.dataset.a
 $('forfeitBtn').onclick=()=>{if(confirm('Deseja encerrar este combate e voltar à seleção?'))backToSelect()};
 function backToSelect(){$('combatPanel').style.display='none';$('selectPanel').classList.remove('hide');$('setupPanel').classList.remove('hide');$('resultOverlay').classList.remove('show');busy=false;renderRoster()}
 $('againBtn').onclick=()=>startGame();$('backBtn').onclick=backToSelect;
+
+// Feedback visual de impacto: números flutuantes e pulso da arena.
+(function(){
+ const log=$('battleLog'), arena=document.querySelector('.arena');
+ if(!log||!arena)return;
+ const observer=new MutationObserver(()=>{
+   const text=log.textContent||'';
+   const match=text.match(/(\d+)\s+de dano/i);
+   if(!match)return;
+   const fromPlayer=player&&text.startsWith(player.name+':');
+   const target=fromPlayer?$('eSprite'):$('pSprite');
+   if(!target)return;
+   const float=document.createElement('div');
+   float.className='damage-float';
+   float.textContent=(text.includes('CRÍTICO!')?'✦ ':'−')+match[1];
+   const rect=target.getBoundingClientRect(), host=arena.getBoundingClientRect();
+   float.style.left=(rect.left-host.left+rect.width*.52)+'px';
+   float.style.top=(rect.top-host.top+rect.height*.2)+'px';
+   arena.appendChild(float);
+   arena.classList.remove('impact');void arena.offsetWidth;arena.classList.add('impact');
+   setTimeout(()=>float.remove(),950);
+ });
+ observer.observe(log,{childList:true,characterData:true,subtree:true});
+})();
+document.querySelectorAll('button').forEach(button=>{
+ if(!button.getAttribute('aria-label')&&button.textContent.trim())button.setAttribute('aria-label',button.textContent.trim().replace(/\s+/g,' '));
+});
 renderRoster();
 </script>
 </body></html>
